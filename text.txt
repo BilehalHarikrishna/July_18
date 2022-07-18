@@ -1,0 +1,32 @@
+Today I have learnt these
+*What is the extension of configuration file
+ Ex:index.conf
+
+*How to write configuration file
+Ex: sudo nano /etc/nginx/nginx.conf
+
+*How to Validate and Reload Configuration Files
+command:sudo nginx -t
+sudo systemctl restart nginx
+sudo nginx -s reload
+
+How to Understand Directives and Contexts in NGINX
+1.Simple Directives 
+    #return
+    #Port
+
+2.Block Directives
+    #events
+    #http
+    #servers
+    #main
+
+How to inspect a default configuration file
+sudo nano /etc/nginx/sites-available/default
+
+How to modify the index.html file
+ cd  /var/www/html
+ this is a root path 
+
+After modified the .conf  and .html file restart the configuration file
+then checked on the localhost with given port.
